@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "46086570763",
+    "project_id": "farrelius-kevin-81783-umnstory",
+    "storage_bucket": "farrelius-kevin-81783-umnstory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46086570763:android:7ec99071fad53f741d980e",
+        "android_client_info": {
+          "package_name": "com.example.if570_lab_uts_farreliuskevin_00000081783"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvRCsBVWYmG3UtwLCNhvMNo-kyu9sKUqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

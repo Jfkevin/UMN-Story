@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="24dp"
+        android:text="@string/welcome_text"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="395dp"
+        android:layout_height="216dp"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="-295dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/umn_logo" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_below="@id/signupButton"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

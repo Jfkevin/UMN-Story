@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">IF570_LAB_UTS_Farrelius Kevin_00000081783</string>
+    <string name="home">UMN Story</string>
+    <string name="welcome_text">Welcome to UMN Story</string>
+    <string name="login_account">Login Akun</string>
+    <string name="signup_title">Signup Akun</string>
+    <string name="profil_pengguna">Profil Pengguna</string>
+    <string name="membuat_story">Membuat Story</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="name_hint">Nama</string>
+    <string name="nim_hint">NIM</string>
+    <string name="submit_button">Submit</string>
+    <string name="masukkan_teks_story">Masukkan teks story</string>
+    <string name="pilih_gambar">Pilih Gambar</string>
+    <string name="gambar_yang_dipilih_atau_diunggah">Gambar yang dipilih atau diunggah</string>
+    <string name="upload">Upload</string>
+    <string name="edit_profil">Edit Profil</string>
+    <string name="button_posting_description">Tombol untuk membuat postingan</string>
+    <string name="button_home_description">Tombol untuk kembali ke beranda</string>
+    <string name="button_profile_description">Tombol untuk mengakses profil pengguna</string>
+    <string name="StoryTextHere">Story Text Here</string>
+    <string name="imageview">ImageView</string>
+    <string name="logout">Logout Akun</string>
+    <string name="pin_story">pin_story\n</string>
+    <string name="nama">Nama:</string>
+    <string name="nim">NIM:</string>
+</resources>

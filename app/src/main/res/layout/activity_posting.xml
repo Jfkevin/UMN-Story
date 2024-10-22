@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/storyInputTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/membuat_story"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_below="@id/storyInputTitle">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="380dp"
+            android:layout_height="250dp"
+            android:gravity="top|start"
+            android:hint="@string/masukkan_teks_story"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:background="@drawable/edit_text_background"
+            android:autofillHints="story"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <ImageButton
+                android:id="@+id/buttonSelectImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_image"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/pilih_gambar"
+                android:layout_marginEnd="16dp" />
+
+            <ImageButton
+                android:id="@+id/buttonUpload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_upload"
+                android:background="?attr/selectableItemBackground"
+                android:contentDescription="@string/upload" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:contentDescription="@string/gambar_yang_dipilih_atau_diunggah"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/navbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@color/light_blue"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/buttonPosting"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_plus"
+            android:layout_gravity="center"
+            android:contentDescription="@string/button_posting_description"/>
+
+        <ImageButton
+            android:id="@+id/buttonHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_home"
+            android:layout_gravity="center"
+            android:contentDescription="@string/button_home_description"/>
+
+        <ImageButton
+            android:id="@+id/buttonProfile"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_user"
+            android:layout_gravity="center"
+            android:contentDescription="@string/button_profile_description"/>
+    </LinearLayout>
+
+</RelativeLayout>
